@@ -1,0 +1,44 @@
+# Book OCR Processing Configuration
+
+# Gemini API Settings
+gemini:
+  model: "gemini-2.5-flash"  # or gemini-1.5-pro for better quality
+  max_retries: 3
+  retry_delay: 2  # seconds
+  timeout: 60  # seconds
+
+# PDF Processing
+pdf:
+  dpi: 300  # Higher = better quality but larger files
+  image_quality: 85  # JPEG quality (1-100)
+  max_image_width: 4000  # pixels
+
+# OCR Settings
+ocr:
+  confidence_threshold: 80  # Minimum confidence to accept Tesseract result
+  fallback_to_tesseract: true  # Use Tesseract if Gemini fails
+
+# Context Management
+context:
+  enable_cross_page_context: true
+  auto_detect_incomplete: true  # Fallback if Gemini doesn't mark {EOL}
+
+# Output Settings
+output:
+  format: "markdown"
+  preserve_structure: true
+  remove_page_numbers: true
+  remove_headers_footers: true
+
+# Performance
+performance:
+  cache_enabled: true
+  cache_dir: "./cache"
+  resume_on_failure: true
+  batch_size: 1  # Pages per Gemini request (keep at 1 for now)
+
+# Logging
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR
+  file: "book_ocr.log"
+  console: true

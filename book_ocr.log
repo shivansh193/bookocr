@@ -1,0 +1,98 @@
+2025-11-11 21:08:06,774 - __main__ - INFO - Initializing Book Processor...
+2025-11-11 21:08:06,775 - src.gemini_client - INFO - Initialized Gemini client with model: gemini-1.5-flash-latest
+2025-11-11 21:08:06,775 - src.pdf_handler - INFO - Initialized PDFHandler (DPI: 300, Quality: 85)
+2025-11-11 21:08:06,775 - src.context_manager - INFO - Initialized ContextManager
+2025-11-11 21:08:06,776 - src.markdown_stitcher - INFO - Initialized MarkdownStitcher
+2025-11-11 21:08:06,777 - src.book_processor - INFO - BookProcessor initialized
+2025-11-11 21:08:06,777 - __main__ - INFO - Testing Gemini API connection...
+2025-11-11 21:08:07,460 - src.gemini_client - ERROR - API connection test failed: 404 models/gemini-1.5-flash-latest is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-11 21:08:07,463 - __main__ - ERROR - Failed to connect to Gemini API. Check your API key.
+2025-11-11 21:08:54,417 - __main__ - INFO - Initializing Book Processor...
+2025-11-11 21:08:54,417 - src.gemini_client - INFO - Initialized Gemini client with model: gemini-1.5-flash-latest
+2025-11-11 21:08:54,417 - src.pdf_handler - INFO - Initialized PDFHandler (DPI: 300, Quality: 85)
+2025-11-11 21:08:54,419 - src.context_manager - INFO - Initialized ContextManager
+2025-11-11 21:08:54,419 - src.markdown_stitcher - INFO - Initialized MarkdownStitcher
+2025-11-11 21:08:54,420 - src.book_processor - INFO - BookProcessor initialized
+2025-11-11 21:08:54,420 - __main__ - INFO - Testing Gemini API connection...
+2025-11-11 21:08:54,848 - src.gemini_client - ERROR - API connection test failed: 404 models/gemini-1.5-flash-latest is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-11 21:08:54,849 - __main__ - ERROR - Failed to connect to Gemini API. Check your API key.
+2025-11-11 21:09:53,428 - __main__ - INFO - Initializing Book Processor...
+2025-11-11 21:09:53,429 - src.gemini_client - INFO - Initialized Gemini client with model: gemini-2.5-flash
+2025-11-11 21:09:53,429 - src.pdf_handler - INFO - Initialized PDFHandler (DPI: 300, Quality: 85)
+2025-11-11 21:09:53,429 - src.context_manager - INFO - Initialized ContextManager
+2025-11-11 21:09:53,429 - src.markdown_stitcher - INFO - Initialized MarkdownStitcher
+2025-11-11 21:09:53,430 - src.book_processor - INFO - BookProcessor initialized
+2025-11-11 21:09:53,430 - __main__ - INFO - Testing Gemini API connection...
+2025-11-11 21:09:57,041 - src.book_processor - INFO - Starting book processing: input/ShivanshKalra_SDE_Oct_25.pdf
+2025-11-11 21:09:57,045 - src.book_processor - INFO - Processing pages 1 to 2 of 2
+2025-11-11 21:09:57,072 - src.pdf_handler - INFO - Extracting pages 1 to 2 from input/ShivanshKalra_SDE_Oct_25.pdf
+2025-11-11 21:09:57,077 - src.pdf_handler - ERROR - Error extracting page 1: Unable to get page count. Is poppler installed and in PATH?
+2025-11-11 21:09:57,078 - src.book_processor - ERROR - Processing failed: Unable to get page count. Is poppler installed and in PATH?
+2025-11-11 21:12:42,758 - __main__ - INFO - Initializing Book Processor...
+2025-11-11 21:12:42,759 - src.gemini_client - INFO - Initialized Gemini client with model: gemini-2.5-flash
+2025-11-11 21:12:42,759 - src.pdf_handler - INFO - Initialized PDFHandler (DPI: 300, Quality: 85)
+2025-11-11 21:12:42,759 - src.context_manager - INFO - Initialized ContextManager
+2025-11-11 21:12:42,760 - src.markdown_stitcher - INFO - Initialized MarkdownStitcher
+2025-11-11 21:12:42,760 - src.book_processor - INFO - BookProcessor initialized
+2025-11-11 21:12:42,760 - __main__ - INFO - Testing Gemini API connection...
+2025-11-11 21:12:46,462 - src.book_processor - INFO - Starting book processing: input/ShivanshKalra_SDE_Oct_25.pdf
+2025-11-11 21:12:46,464 - src.book_processor - INFO - Processing pages 1 to 2 of 2
+2025-11-11 21:12:46,472 - src.pdf_handler - INFO - Extracting pages 1 to 2 from input/ShivanshKalra_SDE_Oct_25.pdf
+2025-11-11 21:12:46,475 - src.pdf_handler - ERROR - Error extracting page 1: Unable to get page count. Is poppler installed and in PATH?
+2025-11-11 21:12:46,475 - src.book_processor - ERROR - Processing failed: Unable to get page count. Is poppler installed and in PATH?
+2025-11-11 21:13:06,054 - __main__ - INFO - Initializing Book Processor...
+2025-11-11 21:13:06,054 - src.gemini_client - INFO - Initialized Gemini client with model: gemini-2.5-flash
+2025-11-11 21:13:06,055 - src.pdf_handler - INFO - Initialized PDFHandler (DPI: 300, Quality: 85)
+2025-11-11 21:13:06,055 - src.context_manager - INFO - Initialized ContextManager
+2025-11-11 21:13:06,055 - src.markdown_stitcher - INFO - Initialized MarkdownStitcher
+2025-11-11 21:13:06,055 - src.book_processor - INFO - BookProcessor initialized
+2025-11-11 21:13:06,055 - __main__ - INFO - Testing Gemini API connection...
+2025-11-11 21:13:09,120 - src.book_processor - INFO - Starting book processing: input/ShivanshKalra_SDE_Oct_25.pdf
+2025-11-11 21:13:09,122 - src.book_processor - INFO - Processing pages 1 to 2 of 2
+2025-11-11 21:13:09,130 - src.pdf_handler - INFO - Extracting pages 1 to 2 from input/ShivanshKalra_SDE_Oct_25.pdf
+2025-11-11 21:13:09,133 - src.pdf_handler - ERROR - Error extracting page 1: Unable to get page count. Is poppler installed and in PATH?
+2025-11-11 21:13:09,133 - src.book_processor - ERROR - Processing failed: Unable to get page count. Is poppler installed and in PATH?
+2025-11-11 21:19:07,728 - __main__ - INFO - Initializing Book Processor...
+2025-11-11 21:19:07,728 - src.gemini_client - INFO - Initialized Gemini client with model: gemini-2.5-flash
+2025-11-11 21:19:07,728 - src.pdf_handler - INFO - Initialized PDFHandler (DPI: 300, Quality: 85)
+2025-11-11 21:19:07,729 - src.context_manager - INFO - Initialized ContextManager
+2025-11-11 21:19:07,729 - src.markdown_stitcher - INFO - Initialized MarkdownStitcher
+2025-11-11 21:19:07,729 - src.book_processor - INFO - BookProcessor initialized
+2025-11-11 21:19:07,729 - __main__ - INFO - Testing Gemini API connection...
+2025-11-11 21:19:24,222 - src.book_processor - INFO - Starting book processing: input/ShivanshKalra_SDE_Oct_25.pdf
+2025-11-11 21:19:24,225 - src.book_processor - INFO - Processing pages 1 to 2 of 2
+2025-11-11 21:19:24,239 - src.pdf_handler - INFO - Extracting pages 1 to 2 from input/ShivanshKalra_SDE_Oct_25.pdf
+2025-11-11 21:19:24,242 - src.pdf_handler - ERROR - Error extracting page 1: Unable to get page count. Is poppler installed and in PATH?
+2025-11-11 21:19:24,242 - src.book_processor - ERROR - Processing failed: Unable to get page count. Is poppler installed and in PATH?
+2025-11-11 21:23:28,877 - __main__ - INFO - Initializing Book Processor...
+2025-11-11 21:23:28,878 - src.gemini_client - INFO - Initialized Gemini client with model: gemini-2.5-flash
+2025-11-11 21:23:28,878 - src.pdf_handler - INFO - Initialized PDFHandler (DPI: 300, Quality: 85)
+2025-11-11 21:23:28,878 - src.context_manager - INFO - Initialized ContextManager
+2025-11-11 21:23:28,878 - src.markdown_stitcher - INFO - Initialized MarkdownStitcher
+2025-11-11 21:23:28,879 - src.book_processor - INFO - BookProcessor initialized
+2025-11-11 21:23:28,879 - __main__ - INFO - Testing Gemini API connection...
+2025-11-11 21:23:39,564 - src.book_processor - INFO - Starting book processing: input/ShivanshKalra_SDE_Oct_25.pdf
+2025-11-11 21:23:39,570 - src.book_processor - INFO - Processing pages 1 to 2 of 2
+2025-11-11 21:23:39,583 - src.pdf_handler - INFO - Extracting pages 1 to 2 from input/ShivanshKalra_SDE_Oct_25.pdf
+2025-11-11 21:23:39,874 - src.gemini_client - INFO - Processing page 1 with Gemini...
+2025-11-11 21:24:08,718 - src.gemini_client - INFO - Page 1 processed successfully
+2025-11-11 21:24:08,869 - src.gemini_client - INFO - Processing page 2 with Gemini...
+2025-11-11 21:24:23,877 - src.gemini_client - INFO - Page 2 processed successfully
+2025-11-11 21:24:23,879 - src.book_processor - INFO - Stitching pages into final document...
+2025-11-11 21:24:23,879 - src.markdown_stitcher - INFO - Stitching 2 pages together...
+2025-11-11 21:24:23,880 - src.markdown_stitcher - INFO - Stitching complete
+2025-11-11 21:24:23,881 - src.book_processor - INFO - Saved 5757 characters to output/test.md
+2025-11-11 21:24:23,882 - src.book_processor - INFO - Processing complete! Output saved to: output/test.md
+2025-11-11 21:24:23,882 - src.book_processor - INFO - ==================================================
+2025-11-11 21:24:23,883 - src.book_processor - INFO - PROCESSING STATISTICS
+2025-11-11 21:24:23,883 - src.book_processor - INFO - ==================================================
+2025-11-11 21:24:23,883 - src.book_processor - INFO - Total Pages: 2
+2025-11-11 21:24:23,883 - src.book_processor - INFO - Processed: 2
+2025-11-11 21:24:23,883 - src.book_processor - INFO - Cached: 0
+2025-11-11 21:24:23,884 - src.book_processor - INFO - Errors: 0
+2025-11-11 21:24:23,884 - src.book_processor - INFO - Total Chars: 5751
+2025-11-11 21:24:23,884 - src.book_processor - INFO - Total Words: 729
+2025-11-11 21:24:23,884 - src.book_processor - INFO - Avg Chars Per Page: 2875
+2025-11-11 21:24:23,884 - src.book_processor - INFO - Context Transitions: 0
+2025-11-11 21:24:23,885 - src.book_processor - INFO - ==================================================
+2025-11-11 21:24:23,886 - __main__ - INFO - Output saved to: output/test.md

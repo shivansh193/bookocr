@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  book-ocr:
+    build: .
+    container_name: book-ocr-processor
+    volumes:
+      - ./input:/app/input:ro          # Mount input PDFs (read-only)
+      - ./output:/app/output           # Mount output directory
+      - ./cache:/app/cache             # Cache for resume capability
+    env_file:
+      - .env
+    environment:
+      - LOG_LEVEL=INFO
+    command: |
+      --input /app/input/book.pdf 
+      --output /app/output/book.md 
+      --confidence-threshold 80
+    restart: unless-stopped
+    deploy:
+      resources:
+        limits:
+          memory: 4G
+        reservations:
+          memory: 2G
